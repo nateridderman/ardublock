@@ -9257,35 +9257,6 @@
 				<BlockGenusMember>DuinoEDU_Guino_Title</BlockGenusMember>
 				<BlockGenusMember>DuinoEDU_Guino_column</BlockGenusMember>
 			</BlockDrawer>
-			<BlockDrawer button-color="26 97 218" name="bd.scoop">
-			    <BlockGenusMember>scoop_task</BlockGenusMember>
-				<BlockGenusMember>scoop_loop</BlockGenusMember>
-				<BlockGenusMember>scoop_sleep</BlockGenusMember>
-				<BlockGenusMember>scoop_pin_event</BlockGenusMember>
-				<BlockGenusMember>scoop_event_low</BlockGenusMember>
-				<BlockGenusMember>scoop_event_high</BlockGenusMember>
-				<BlockGenusMember>scoop_event_falling</BlockGenusMember>
-				<BlockGenusMember>scoop_event_rising</BlockGenusMember>
-				<BlockGenusMember>scoop_event_change</BlockGenusMember>
-			</BlockDrawer>
-			<BlockDrawer button-color="0 50 45" name="bd.storage" type="factory">
-				<BlockGenusMember>eeprom_read_int</BlockGenusMember>
-				<BlockGenusMember>eeprom_write_int</BlockGenusMember>
-				<BlockGenusMember>eeprom_read_long</BlockGenusMember>
-				<BlockGenusMember>eeprom_write_long</BlockGenusMember>
-				<BlockGenusMember>eeprom_read</BlockGenusMember>
-				<BlockGenusMember>eeprom_write</BlockGenusMember>
-				<BlockGenusMember>sd_write2</BlockGenusMember>
-				<!-- <BlockGenusMember>sd_write</BlockGenusMember> -->
-				<!-- <BlockGenusMember>sd_write_number</BlockGenusMember> -->
-				<!-- <BlockGenusMember>sd_write_number_int</BlockGenusMember> -->
-			</BlockDrawer>
-			<BlockDrawer button-color="169 148 212" name="bd.network" type="factory">
-				<BlockGenusMember>bleshield</BlockGenusMember>
-				<BlockGenusMember>bleshield_available</BlockGenusMember>
-				<BlockGenusMember>bleshield_read_poly</BlockGenusMember>
-				<BlockGenusMember>bleshield_compare</BlockGenusMember>
-			</BlockDrawer>
 			<BlockDrawer button-color="120 120 120" name="bd.especial" type="factory">
 				<BlockGenusMember>code_head</BlockGenusMember>
 				<BlockGenusMember>code_setup</BlockGenusMember>
