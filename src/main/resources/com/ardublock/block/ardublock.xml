@@ -2204,8 +2204,8 @@
 				<text>TinkerKit LED</text>
 			</description>
 			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="bc.pin_number">
-					<DefaultArg genus-name="Tinker_O1" label="O1" />
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="1" />
 				</BlockConnector>
 				<BlockConnector connector-type="boolean" connector-kind="socket" label="bc.status">
 					<DefaultArg genus-name="digital-on" label="ON" />
@@ -2223,8 +2223,9 @@
 				<text>TinkerKit LED</text>
 			</description>
 			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="bc.pin_number">
-					<DefaultArg genus-name="Tinker_O1" label="O1" />
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="1" />
+					<DefaultArg genus-name="number" label="1" />
 				</BlockConnector>
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.level">
 					<DefaultArg genus-name="number" label="255" />
@@ -2320,7 +2321,7 @@
 			<BlockConnectors>
 				<BlockConnector connector-type="boolean" connector-kind="plug" />
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.pin_number">
-					<DefaultArg genus-name="Tinker_I1" label="I1" />
+					<DefaultArg genus-name="number" label="1" />
 				</BlockConnector>
 			</BlockConnectors>
 			<Images>
@@ -2371,7 +2372,7 @@
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" />
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.pin_number">
-					<DefaultArg genus-name="Tinker_I1" label="I1" />
+					<DefaultArg genus-name="number" label="1" />
 				</BlockConnector>
 			</BlockConnectors>
 			<Images>
@@ -9266,17 +9267,7 @@
 				<BlockGenusMember>Tinker_LED</BlockGenusMember>
 				<BlockGenusMember>Tinker_LED_pwm</BlockGenusMember>
 				<BlockGenusMember>Tinker_Button</BlockGenusMember>
-				<BlockGenusMember>Tinker_Accmeter</BlockGenusMember>
-				<BlockGenusMember>Tinker_Hall</BlockGenusMember>
 				<BlockGenusMember>Tinker_LDR</BlockGenusMember>
-				<BlockGenusMember>Tinker_LinearPotentiometer</BlockGenusMember>
-				<BlockGenusMember>Tinker_RotaryPotentiometer</BlockGenusMember>
-				<BlockGenusMember>Tinker_Thermistor</BlockGenusMember>
-				<BlockGenusMember>Tinker_Touch</BlockGenusMember>
-				<BlockGenusMember>Tinker_Tilt</BlockGenusMember>
-				<BlockGenusMember>Tinker_Relay</BlockGenusMember>
-				<BlockGenusMember>Tinker_Mosfet</BlockGenusMember>
-				<BlockGenusMember>Tinker_Mosfet_pwm</BlockGenusMember>
 			</BlockDrawer>
 		</BlockDrawerSet>
 	</BlockDrawerSets>
