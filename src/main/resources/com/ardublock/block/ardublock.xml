@@ -1234,7 +1234,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="number" kind="data" color="232 156 149" initlabel="bg.number" editable-label="yes">
+		<BlockGenus name="number" kind="data" color="201 52 57" initlabel="bg.number" editable-label="yes">
 			<description>
 				<text>
 					Standard integer constant
@@ -1245,7 +1245,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="number_long" kind="data" color="255 153 204 " initlabel="bg.number_long" editable-label="yes">
+		<BlockGenus name="number_long" kind="data" color="201 52 57" initlabel="bg.number_long" editable-label="yes">
 			<description>
 				<text>
 					'Unsigned Long' constant
@@ -1256,7 +1256,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="number_double" kind="data" color="153 204 255" initlabel="bg.number_double" editable-label="yes">
+		<BlockGenus name="number_double" kind="data" color="201 52 57" initlabel="bg.number_double" editable-label="yes">
 			<description>
 				<text>
 					'Double' constant
@@ -1267,25 +1267,25 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="number-single" kind="data" color="205 133 63" initlabel="bg.number-single" editable-label="yes" is-label-value="yes">
+		<BlockGenus name="number-single" kind="data" color="201 52 57" initlabel="bg.number-single" editable-label="yes" is-label-value="yes">
 			<BlockConnectors>
 				<BlockConnector connector-type="number-list" connector-kind="plug" position-type="single" />
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="number-single-fixed-parallel" kind="data" color="205 133 63" initlabel="Parallel" editable-label="no" is-label-value="yes">
+		<BlockGenus name="number-single-fixed-parallel" kind="data" color="201 52 57" initlabel="Parallel" editable-label="no" is-label-value="yes">
 			<BlockConnectors>
 				<BlockConnector connector-type="number-list" connector-kind="plug" position-type="single" />
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="number-single-I2C-address" kind="data" color="205 133 63" initlabel="bg.number-single-I2C-address" editable-label="yes" is-label-value="yes">
+		<BlockGenus name="number-single-I2C-address" kind="data" color="201 52 57" initlabel="bg.number-single-I2C-address" editable-label="yes" is-label-value="yes">
 			<BlockConnectors>
 				<BlockConnector connector-type="number-list" connector-kind="plug" position-type="single" />
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="digital-high" kind="data" color="204 153 255" initlabel="bg.digital-high">
+		<BlockGenus name="digital-high" kind="data" color="201 52 57" initlabel="bg.digital-high">
 			<description>
 				<text>
 					Pin HIGH
@@ -1296,7 +1296,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="digital-low" kind="data" color="204 153 255" initlabel="bg.digital-low">
+		<BlockGenus name="digital-low" kind="data" color="201 52 57" initlabel="bg.digital-low">
 			<description>
 				<text>
 					Pin LOW
@@ -1308,7 +1308,7 @@
 		</BlockGenus>
 
 
-		<BlockGenus name="true" kind="data" initlabel="bg.true" color="204 153 255" editable-label="no">
+		<BlockGenus name="true" kind="data" initlabel="bg.true" color="201 52 57" editable-label="no">
 			<description>
 				<text>
 					Reports the boolean true.
@@ -1319,7 +1319,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="false" kind="data" initlabel="bg.false" color="204 153 255">
+		<BlockGenus name="false" kind="data" initlabel="bg.false" color="201 52 57">
 			<description>
 				<text>
 					Reports the boolean false.
@@ -1330,7 +1330,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="variable_number" kind="data" initlabel="bg.variable_number" editable-label="yes" is-label-value="yes" color="230 110 110">
+		<BlockGenus name="variable_number" kind="data" initlabel="bg.variable_number" editable-label="yes" is-label-value="yes" color="201 52 57">
 			<description>
 				<text>
 					Digital Var
@@ -1352,7 +1352,7 @@
 	      </BlockConnectors>
 	    </BlockGenus>
 	    
-	    <BlockGenus name="variable_number_double" kind="data" initlabel="bg.variable_number_double" editable-label="yes" is-label-value="yes" color="51 153 255">
+	    <BlockGenus name="variable_number_double" kind="data" initlabel="bg.variable_number_double" editable-label="yes" is-label-value="yes" color="201 52 57">
 	      <description>
 	        <text>
 	          Double
@@ -1363,7 +1363,7 @@
 	      </BlockConnectors>
 	    </BlockGenus>
 
-		<BlockGenus name="variable_digital" kind="data" initlabel="bg.variable_digital" editable-label="yes" is-label-value="yes" color="153 102 204">
+		<BlockGenus name="variable_digital" kind="data" initlabel="bg.variable_digital" editable-label="yes" is-label-value="yes" color="201 52 57">
 			<description>
 				<text>
 					Digital Var
@@ -1374,7 +1374,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="variable_string" kind="data" color="32 102 204" initlabel="bg.variable_string" editable-label="yes">
+		<BlockGenus name="variable_string" kind="data" color="201 52 57" initlabel="bg.variable_string" editable-label="yes">
 			<description>
 				<text>string message</text>
 			</description>
@@ -1383,7 +1383,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="setter_variable_number" kind="command" color="232 156 149" initlabel="bg.setter_variable_number">
+		<BlockGenus name="setter_variable_number" kind="command" color="201 52 57" initlabel="bg.setter_variable_number">
 			<description>
 				<text>set integer variable</text>
 			</description>
@@ -1397,7 +1397,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-	    <BlockGenus name="setter_variable_number_unsigned_long" kind="command" color="255 153 204" initlabel="bg.setter_variable_number_unsigned_long">
+	    <BlockGenus name="setter_variable_number_unsigned_long" kind="command" color="201 52 57" initlabel="bg.setter_variable_number_unsigned_long">
 	      <description>
 	        <text>set a large integer variable</text>
 	      </description>
@@ -1411,7 +1411,7 @@
 	      </BlockConnectors>
 	    </BlockGenus>
 
-	    <BlockGenus name="setter_variable_number_double" kind="command" color="153 204 255" initlabel="bg.setter_variable_number_double">
+	    <BlockGenus name="setter_variable_number_double" kind="command" color="201 52 57" initlabel="bg.setter_variable_number_double">
 	      <description>
 	        <text>set decimal variable</text>
 	      </description>
@@ -1425,7 +1425,7 @@
 	      </BlockConnectors>
 	    </BlockGenus>
 
-		<BlockGenus name="setter_variable_digital" kind="command" color="204 153 255" initlabel="bg.setter_variable_digital">
+		<BlockGenus name="setter_variable_digital" kind="command" color="201 52 57" initlabel="bg.setter_variable_digital">
 			<description>
 				<text>write digital to pin</text>
 			</description>
@@ -1453,7 +1453,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="create_variable_vector" kind="command" color="232 156 149" initlabel="bg.create_variable_vector">
+		<BlockGenus name="create_variable_vector" kind="command" color="201 52 57" initlabel="bg.create_variable_vector">
 			<description>
 				<text>create a vector of numbers</text>
 			</description>
@@ -1468,7 +1468,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="setter_variable_vector" kind="command" color="232 156 149" initlabel="bg.setter_variable_vector">
+		<BlockGenus name="setter_variable_vector" kind="command" color="201 52 57" initlabel="bg.setter_variable_vector">
 			<description>
 				<text>Set a vector number</text>
 			</description>
@@ -1485,7 +1485,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="setter_variable_char" kind="command" color="102 255 51" initlabel="bg.setter_variable_char">
+		<BlockGenus name="setter_variable_char" kind="command" color="201 52 57" initlabel="bg.setter_variable_char">
 			<description>
 				<text>create a vector of numbers</text>
 			</description>
@@ -1511,7 +1511,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="char" kind="data" color="102 255 51" initlabel="bg.char" editable-label="yes">
+		<BlockGenus name="char" kind="data" color="201 52 57" initlabel="bg.char" editable-label="yes">
 			<description>
 				<text>
 					character
@@ -1522,7 +1522,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-	    <BlockGenus name="setter_variable_String" kind="command" color="245 245 245" initlabel="bg.setter_variable_String">
+	    <BlockGenus name="setter_variable_String" kind="command" color="201 52 57" initlabel="bg.setter_variable_String">
 	      <description>
 	        <text>set String variable</text>
 	      </description>
@@ -1536,7 +1536,7 @@
 	      </BlockConnectors>
 	    </BlockGenus>
 				
-	    <BlockGenus name="variable_String" kind="data" initlabel="bg.variable_String" editable-label="yes" is-label-value="yes" color="245 245 245">
+	    <BlockGenus name="variable_String" kind="data" initlabel="bg.variable_String" editable-label="yes" is-label-value="yes" color="201 52 57">
 	      <description>
 	        <text>
 	          Variable String
@@ -1547,7 +1547,7 @@
 	      </BlockConnectors>
 	    </BlockGenus>
 		<!--****************** Utilities *************** -->		
-		<BlockGenus name="servo_default" kind="command" color="205 133 63" label-prefix="Servo: " initlabel="bg.servo">
+		<BlockGenus name="servo_default" kind="command" color="201 52 57" label-prefix="Servo: " initlabel="bg.servo">
 			<description>
 				<text>Servo Default</text>
 			</description>
@@ -1561,7 +1561,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="servo_sg90" kind="command" color="205 133 63" label-prefix="Servo: " initlabel="bg.servo">
+		<BlockGenus name="servo_sg90" kind="command" color="201 52 57" label-prefix="Servo: " initlabel="bg.servo">
 			<description>
 				<text>SG90</text>
 			</description>
@@ -1580,7 +1580,7 @@
 			</Images>
 		</BlockGenus>
 		
-		<BlockGenus name="servo_mg996r" kind="command" color="205 133 63" label-prefix="Servo: " initlabel="bg.servo">
+		<BlockGenus name="servo_mg996r" kind="command" color="201 52 57" label-prefix="Servo: " initlabel="bg.servo">
 			<description>
 				<text>Servo MG996R</text>
 			</description>
@@ -1614,7 +1614,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="LCD_I2C_Sainsmart_20by4" kind="command" color="205 133 63" initlabel="bg.LCD_I2C_Sainsmart_20by4">
+		<BlockGenus name="LCD_I2C_Sainsmart_20by4" kind="command" color="201 52 57" initlabel="bg.LCD_I2C_Sainsmart_20by4">
 			<description>
 				<text>20 Char by 4 Line LCD display</text>
 			</description>			
@@ -1639,7 +1639,7 @@
 			</Images>
 		</BlockGenus>
 
-		<BlockGenus name="LCD_I2C_Sainsmart_16by2" kind="command" color="205 133 63" initlabel="bg.LCD_I2C_Sainsmart_16by2">
+		<BlockGenus name="LCD_I2C_Sainsmart_16by2" kind="command" color="201 52 57" initlabel="bg.LCD_I2C_Sainsmart_16by2">
 			<description>
 				<text>16 Char by 2 Line LCD display</text>
 			</description>			
@@ -1664,7 +1664,7 @@
 			</Images>
 		</BlockGenus>
 
-		<BlockGenus name="LCD_PLL_Sainsmart_16by2" kind="command" color="205 133 63" initlabel="bg.LCD_PLL_Sainsmart_16by2">
+		<BlockGenus name="LCD_PLL_Sainsmart_16by2" kind="command" color="201 52 57" initlabel="bg.LCD_PLL_Sainsmart_16by2">
 			<description>
 				<text>16 Char by 2 Line LCD display</text>
 			</description>
@@ -1689,7 +1689,7 @@
 			</Images>
 		</BlockGenus>
 		
-		<BlockGenus name="LCD_command_clear" kind="command" color="205 133 63" label-prefix="LCD::  " initlabel="bg.LCD_command_clear">
+		<BlockGenus name="LCD_command_clear" kind="command" color="201 52 57" label-prefix="LCD::  " initlabel="bg.LCD_command_clear">
 			<description>
 				<text>Clear LCD</text>
 			</description>
@@ -1700,7 +1700,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="LCD_command_home" kind="command" color="205 133 63" label-prefix="LCD::  " initlabel="bg.LCD_command_home">
+		<BlockGenus name="LCD_command_home" kind="command" color="201 52 57" label-prefix="LCD::  " initlabel="bg.LCD_command_home">
 			<description>
 				<text>Home LCD</text>
 			</description>
@@ -1711,7 +1711,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="LCD_command_lightOn" kind="command" color="205 133 63" label-prefix="LCD::  " initlabel="bg.LCD_command_lightOn">
+		<BlockGenus name="LCD_command_lightOn" kind="command" color="201 52 57" label-prefix="LCD::  " initlabel="bg.LCD_command_lightOn">
 			<description>
 				<text>Home LCD</text>
 			</description>
@@ -1722,7 +1722,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="LCD_command_lightOff" kind="command" color="205 133 63" label-prefix="LCD::  " initlabel="bg.LCD_command_lightOff">
+		<BlockGenus name="LCD_command_lightOff" kind="command" color="201 52 57" label-prefix="LCD::  " initlabel="bg.LCD_command_lightOff">
 			<description>
 				<text>Home LCD</text>
 			</description>
@@ -1733,7 +1733,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="LCD_command_cursorOn" kind="command" color="205 133 63" label-prefix="LCD::  " initlabel="bg.LCD_command_cursorOn">
+		<BlockGenus name="LCD_command_cursorOn" kind="command" color="201 52 57" label-prefix="LCD::  " initlabel="bg.LCD_command_cursorOn">
 			<description>
 				<text>Home LCD</text>
 			</description>
@@ -1744,7 +1744,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="LCD_command_cursorOff" kind="command" color="205 133 63" label-prefix="LCD::  " initlabel="bg.LCD_command_cursorOff">
+		<BlockGenus name="LCD_command_cursorOff" kind="command" color="201 52 57" label-prefix="LCD::  " initlabel="bg.LCD_command_cursorOff">
 			<description>
 				<text>Home LCD</text>
 			</description>
@@ -1755,7 +1755,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="LCD_command_blinkOn" kind="command" color="205 133 63" label-prefix="LCD::  " initlabel="bg.LCD_command_blinkOn">
+		<BlockGenus name="LCD_command_blinkOn" kind="command" color="201 52 57" label-prefix="LCD::  " initlabel="bg.LCD_command_blinkOn">
 			<description>
 				<text>Home LCD</text>
 			</description>
@@ -1766,7 +1766,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="LCD_command_blinkOff" kind="command" color="205 133 63" label-prefix="LCD::  " initlabel="bg.LCD_command_blinkOff">
+		<BlockGenus name="LCD_command_blinkOff" kind="command" color="201 52 57" label-prefix="LCD::  " initlabel="bg.LCD_command_blinkOff">
 			<description>
 				<text>Home LCD</text>
 			</description>
@@ -2123,13 +2123,13 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="digital-on" kind="data" color="204 153 255" initlabel="bg.digital-on">
+		<BlockGenus name="digital-on" kind="data" color="201 52 57" initlabel="bg.digital-on">
 			<BlockConnectors>
 				<BlockConnector connector-type="boolean" connector-kind="plug" position-type="mirror" />
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="digital-off" kind="data" color="204 153 255" initlabel="bg.digital-off">
+		<BlockGenus name="digital-off" kind="data" color="201 52 57" initlabel="bg.digital-off">
 			<BlockConnectors>
 				<BlockConnector connector-type="boolean" connector-kind="plug" position-type="mirror" />
 			</BlockConnectors>
@@ -8268,7 +8268,7 @@
 		<!-- *** iDrawing ***-->
 		<!-- **data** -->		
 
-		<BlockGenus name="led_mode_flash" kind="data" color="204 153 255" initlabel="bg.led_mode_flash">
+		<BlockGenus name="led_mode_flash" kind="data" color="201 52 57" initlabel="bg.led_mode_flash">
 			<description>
 				<text>
 					Flashing Mode
@@ -8279,7 +8279,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="led_mode_fade" kind="data" color="204 153 255" initlabel="bg.led_mode_fade">
+		<BlockGenus name="led_mode_fade" kind="data" color="201 52 57" initlabel="bg.led_mode_fade">
 			<description>
 				<text>
 					Fading Mode
@@ -8337,7 +8337,7 @@
 
 
 		
-		<BlockGenus name="player_mode_random" kind="data" color="204 153 255" initlabel="bg.player_mode_random">
+		<BlockGenus name="player_mode_random" kind="data" color="201 52 57" initlabel="bg.player_mode_random">
 			<description>
 				<text>
 					Random Mode
@@ -8348,7 +8348,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="player_mode_single" kind="data" color="204 153 255" initlabel="bg.player_mode_single">
+		<BlockGenus name="player_mode_single" kind="data" color="201 52 57" initlabel="bg.player_mode_single">
 			<description>
 				<text>
 					 Single Mode
@@ -8359,7 +8359,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="output_mode_high" kind="data" color="204 153 255" initlabel="bg.output_mode_high">
+		<BlockGenus name="output_mode_high" kind="data" color="201 52 57" initlabel="bg.output_mode_high">
 			<description>
 				<text>
 					 high
@@ -8370,7 +8370,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="output_mode_low" kind="data" color="204 153 255" initlabel="bg.output_mode_low">
+		<BlockGenus name="output_mode_low" kind="data" color="201 52 57" initlabel="bg.output_mode_low">
 			<description>
 				<text>
 					 low
@@ -8381,7 +8381,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="output_mode_highpulse" kind="data" color="204 153 255" initlabel="bg.output_mode_highpulse">
+		<BlockGenus name="output_mode_highpulse" kind="data" color="201 52 57" initlabel="bg.output_mode_highpulse">
 			<description>
 				<text>
 					 high pulse
@@ -8392,7 +8392,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="output_mode_lowpulse" kind="data" color="204 153 255" initlabel="bg.output_mode_lowpulse">
+		<BlockGenus name="output_mode_lowpulse" kind="data" color="201 52 57" initlabel="bg.output_mode_lowpulse">
 			<description>
 				<text>
 					 low pulse
@@ -9091,10 +9091,8 @@
 				<BlockGenusMember>random_range</BlockGenusMember>
 				<BlockGenusMember>map</BlockGenusMember>
 			</BlockDrawer>
-			<BlockDrawer button-color="232 156 149" name="bd.number" type="factory">
+			<BlockDrawer button-color="201 52 57" name="bd.number" type="factory">
 				<BlockGenusMember>number</BlockGenusMember>
-				<BlockGenusMember>setter_variable_number_unsigned_long</BlockGenusMember>
-				<BlockGenusMember>variable_number_unsigned_long</BlockGenusMember>
 				<BlockGenusMember>setter_variable_number</BlockGenusMember>
 				<BlockGenusMember>variable_number</BlockGenusMember>
 				<BlockGenusMember>setter_variable_digital</BlockGenusMember>
@@ -9106,19 +9104,8 @@
 				<BlockGenusMember>setter_variable_number_double</BlockGenusMember>
 				<BlockGenusMember>variable_number_double</BlockGenusMember>
 				<BlockGenusMember>number_double</BlockGenusMember>
-				<BlockGenusMember>setter_variable_char</BlockGenusMember>
-				<BlockGenusMember>char</BlockGenusMember>
-				<BlockGenusMember>variable_string</BlockGenusMember>
-				<BlockGenusMember>setter_variable_String</BlockGenusMember>
-				<BlockGenusMember>variable_String</BlockGenusMember>
-				<BlockGenusMember>message</BlockGenusMember>
-				<BlockGenusMember>create_variable_vector</BlockGenusMember>
-				<BlockGenusMember>variable_vector</BlockGenusMember>
-				<BlockGenusMember>setter_variable_vector</BlockGenusMember>
-				<BlockGenusMember>setter_variable_char</BlockGenusMember>
-				<BlockGenusMember>variable_poly</BlockGenusMember>
 			</BlockDrawer>
-			<BlockDrawer button-color="205 133 63" name="bd.utilities" type="factory">
+			<BlockDrawer button-color="201 52 57" name="bd.utilities" type="factory">
 				<BlockGenusMember>servo_default</BlockGenusMember>
 				<BlockGenusMember>ultrasonic</BlockGenusMember>
 				<BlockGenusMember>LCD_I2C_Sainsmart_20by4</BlockGenusMember>
