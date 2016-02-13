@@ -1225,7 +1225,7 @@
 		</BlockGenus>	
 
 		<!--****************** Numbers/Constants *************** -->
-		<BlockGenus name="millis" kind="data" color="255 153 204" initlabel="bg.millis">
+		<BlockGenus name="millis" kind="data" color="255 61 146" initlabel="bg.millis">
 			<description>
 				<text>Time in milliseconds</text>
 			</description>
@@ -9027,7 +9027,6 @@
 				<BlockGenusMember>program</BlockGenusMember>
 				<BlockGenusMember>delay</BlockGenusMember>
 				<BlockGenusMember>delay_microseconds</BlockGenusMember>
-				<BlockGenusMember>millis</BlockGenusMember>
 				<BlockGenusMember>if</BlockGenusMember>
 				<BlockGenusMember>ifelse</BlockGenusMember>
 				<BlockGenusMember>while</BlockGenusMember>
@@ -9069,16 +9068,9 @@
 				<BlockGenusMember>not_equal</BlockGenusMember>
 				<BlockGenusMember>equal_digital</BlockGenusMember>
 				<BlockGenusMember>not_equal_digital</BlockGenusMember>
-				<BlockGenusMember>equal_poly</BlockGenusMember>
-				<BlockGenusMember>not_equal_poly</BlockGenusMember>
-				<BlockGenusMember>equal_string</BlockGenusMember>
-				<BlockGenusMember>not_equal_string</BlockGenusMember>
 				<BlockGenusMember>and</BlockGenusMember>
 				<BlockGenusMember>or</BlockGenusMember>
 				<BlockGenusMember>not</BlockGenusMember>
-				<BlockGenusMember>string_equal</BlockGenusMember>
-				<BlockGenusMember>string_empty</BlockGenusMember>
-				<BlockGenusMember>string_toInt</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="201 52 57" name="bd.number" type="factory">
 				<BlockGenusMember>number</BlockGenusMember>
@@ -9100,6 +9092,7 @@
 				<BlockGenusMember>tone</BlockGenusMember>
 				<BlockGenusMember>tone_time</BlockGenusMember>
 				<BlockGenusMember>no_tone</BlockGenusMember>
+				<BlockGenusMember>millis</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="200 200 200" name="bd.communication" type="factory">
 				<BlockGenusMember>serial_read</BlockGenusMember>
