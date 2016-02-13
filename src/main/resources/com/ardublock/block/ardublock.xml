@@ -1552,8 +1552,8 @@
 				<text>Servo Default</text>
 			</description>
 			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="bc.pin_number">
-					<DefaultArg genus-name="DuinoEDU_D5" label="D5" />
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="2" />
 				</BlockConnector>
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.angle">
 					<DefaultArg genus-name="number" label="90" />
