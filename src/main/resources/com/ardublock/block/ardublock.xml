@@ -9106,6 +9106,7 @@
 				<BlockGenusMember>number_double</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="201 52 57" name="bd.utilities" type="factory">
+				<BlockGenusMember>df_temperature_sensor</BlockGenusMember>
 				<BlockGenusMember>servo_default</BlockGenusMember>
 				<BlockGenusMember>ultrasonic</BlockGenusMember>
 				<BlockGenusMember>LCD_I2C_Sainsmart_20by4</BlockGenusMember>
