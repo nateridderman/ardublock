@@ -308,62 +308,62 @@
 		
 		<!--****************** Pins *************** -->
 
-		<BlockGenus name="pin-read-digital" kind="data" color="77 191 169" initlabel="bg.pin-read-digital">
+		<BlockGenus name="pin-read-digital" kind="data" color="59 218 38" initlabel="bg.num">
 			<description>
 				<text>Read digital from the pin</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="#">
-					<DefaultArg genus-name="DuinoEDU_D2" label="D2" />
+					<DefaultArg genus-name="number" label="1" />
 				</BlockConnector>
 				<BlockConnector connector-type="boolean" connector-kind="plug" />
 			</BlockConnectors>
 		</BlockGenus>
 
 
-		<BlockGenus name="pin-read-digital-pullup" kind="command" color="77 191 169" initlabel="bg.pin-write-digital">
+		<BlockGenus name="pin-read-digital-pullup" kind="command" color="59 218 38" initlabel="bg.num">
 			<description>
 				<text>write digital to pin</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="#">
-					<DefaultArg genus-name="DuinoEDU_D2" label="D2" />
+					<DefaultArg genus-name="number" label="1" />
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="pin-read-analog" kind="data" color="77 191 169" initlabel="bg.pin-read-analog">
+		<BlockGenus name="pin-read-analog" kind="data" color="59 218 38" initlabel="bg.num">
 			<description>
 				<text>Read analog value from pin</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="#">
-					<DefaultArg genus-name="DuinoEDU_A0" label="A0" />
+					<DefaultArg genus-name="number" label="1" />
 				</BlockConnector>
 				<BlockConnector connector-type="number" connector-kind="plug" />
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="pin-write-digital" kind="command" color="77 191 169" initlabel="bg.pin-write-digital">
+		<BlockGenus name="pin-write-digital" kind="command" color="59 218 38" initlabel="bg.num">
 			<description>
 				<text>write digital to pin</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="#">
-					<DefaultArg genus-name="DuinoEDU_D2" label="D2" />
+					<DefaultArg genus-name="number" label="1" />
 				</BlockConnector>
 				<BlockConnector connector-type="boolean" connector-kind="socket">
-					<DefaultArg genus-name="digital-high" label="HIGH" />
+					<DefaultArg genus-name="digital-on" label="ON" />
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="pin-write-analog" kind="command" color="77 191 169" initlabel="bg.pin-write-analog">
+		<BlockGenus name="pin-write-analog" kind="command" color="59 218 38" initlabel="bg.num">
 			<description>
 				<text>write analog to pin</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="#">
-					<DefaultArg genus-name="DuinoEDU_D2" label="D2" />
+					<DefaultArg genus-name="number" label="1" />
 				</BlockConnector>
 				<BlockConnector connector-type="number" connector-kind="socket">
 					<DefaultArg genus-name="number" label="255" />
@@ -371,7 +371,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="tone" kind="command" color="77 191 169" initlabel="tone">
+		<BlockGenus name="tone" kind="command" color="59 218 38" initlabel="tone">
 			<description>
 				<text>Generates a square wave of the specified frequency (and 50%
 					duty cycle) on a pin.
@@ -388,7 +388,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="tone_time" kind="command" color="77 191 169" initlabel="tone">
+		<BlockGenus name="tone_time" kind="command" color="59 218 38" initlabel="tone">
 			<description>
 				<text>Generates a square wave of the specified frequency (and 50%
 					duty cycle) on a pin.
@@ -407,7 +407,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="no_tone" kind="command" color="77 191 169" initlabel="noTone">
+		<BlockGenus name="no_tone" kind="command" color="59 218 38" initlabel="noTone">
 			<description>
 				<text>Stops the generation of a square wave triggered by tone().
 				</text>
@@ -419,7 +419,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="DDRA" kind="command" color="77 191 169" initlabel="bg.DDRA">
+		<BlockGenus name="DDRA" kind="command" color="59 218 38" initlabel="bg.DDRA">
 			<description>
 				<text>DDRA
 				</text>
@@ -430,7 +430,7 @@
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="DDRB" kind="command" color="77 191 169" initlabel="bg.DDRB">
+		<BlockGenus name="DDRB" kind="command" color="59 218 38" initlabel="bg.DDRB">
 			<description>
 				<text>DDRB
 				</text>
@@ -441,7 +441,7 @@
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="DDRC" kind="command" color="77 191 169" initlabel="bg.DDRC">
+		<BlockGenus name="DDRC" kind="command" color="59 218 38" initlabel="bg.DDRC">
 			<description>
 				<text>DDRC
 				</text>
@@ -452,7 +452,7 @@
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="DDRD" kind="command" color="77 191 169" initlabel="bg.DDRD">
+		<BlockGenus name="DDRD" kind="command" color="59 218 38" initlabel="bg.DDRD">
 			<description>
 				<text>DDRD
 				</text>
@@ -463,7 +463,7 @@
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="DDRH" kind="command" color="77 191 169" initlabel="bg.DDRH">
+		<BlockGenus name="DDRH" kind="command" color="59 218 38" initlabel="bg.DDRH">
 			<description>
 				<text>DDRH
 				</text>
@@ -474,7 +474,7 @@
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="DDRL" kind="command" color="77 191 169" initlabel="bg.DDRL">
+		<BlockGenus name="DDRL" kind="command" color="59 218 38" initlabel="bg.DDRL">
 			<description>
 				<text>DDRL
 				</text>
@@ -485,7 +485,7 @@
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="PORTA" kind="command" color="77 191 169" initlabel="bg.PORTA">
+		<BlockGenus name="PORTA" kind="command" color="59 218 38" initlabel="bg.PORTA">
 			<description>
 				<text>PORTA
 				</text>
@@ -496,7 +496,7 @@
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="PORTB" kind="command" color="77 191 169" initlabel="bg.PORTB">
+		<BlockGenus name="PORTB" kind="command" color="59 218 38" initlabel="bg.PORTB">
 			<description>
 				<text>PORTB
 				</text>
@@ -507,7 +507,7 @@
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="PORTC" kind="command" color="77 191 169" initlabel="bg.PORTC">
+		<BlockGenus name="PORTC" kind="command" color="59 218 38" initlabel="bg.PORTC">
 			<description>
 				<text>PORTC
 				</text>
@@ -518,7 +518,7 @@
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="PORTD" kind="command" color="77 191 169" initlabel="bg.PORTD">
+		<BlockGenus name="PORTD" kind="command" color="59 218 38" initlabel="bg.PORTD">
 			<description>
 				<text>PORTD
 				</text>
@@ -529,7 +529,7 @@
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="PORTH" kind="command" color="77 191 169" initlabel="bg.PORTH">
+		<BlockGenus name="PORTH" kind="command" color="59 218 38" initlabel="bg.PORTH">
 			<description>
 				<text>PORTH
 				</text>
@@ -540,7 +540,7 @@
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="PORTL" kind="command" color="77 191 169" initlabel="bg.PORTL">
+		<BlockGenus name="PORTL" kind="command" color="59 218 38" initlabel="bg.PORTL">
 			<description>
 				<text>PORTL
 				</text>
@@ -551,7 +551,7 @@
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="PINA" kind="data" color="77 191 169" initlabel="bg.PINA">
+		<BlockGenus name="PINA" kind="data" color="59 218 38" initlabel="bg.PINA">
 			<description>
 				<text>PINA</text>
 			</description>
@@ -559,7 +559,7 @@
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror"/>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="PINB" kind="data" color="77 191 169" initlabel="bg.PINB">
+		<BlockGenus name="PINB" kind="data" color="59 218 38" initlabel="bg.PINB">
 			<description>
 				<text>PINB</text>
 			</description>
@@ -567,7 +567,7 @@
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror"/>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="PINC" kind="data" color="77 191 169" initlabel="bg.PINC">
+		<BlockGenus name="PINC" kind="data" color="59 218 38" initlabel="bg.PINC">
 			<description>
 				<text>PINC</text>
 			</description>
@@ -575,7 +575,7 @@
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror" />
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="PIND" kind="data" color="77 191 169" initlabel="bg.PIND">
+		<BlockGenus name="PIND" kind="data" color="59 218 38" initlabel="bg.PIND">
 			<description>
 				<text>PIND</text>
 			</description>
@@ -583,7 +583,7 @@
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror"/>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="PINH" kind="data" color="77 191 169" initlabel="bg.PINH">
+		<BlockGenus name="PINH" kind="data" color="59 218 38" initlabel="bg.PINH">
 			<description>
 				<text>PINH</text>
 			</description>
@@ -591,7 +591,7 @@
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror"/>
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="PINL" kind="data" color="77 191 169" initlabel="bg.PINL">
+		<BlockGenus name="PINL" kind="data" color="59 218 38" initlabel="bg.PINL">
 			<description>
 				<text>PINL</text>
 			</description>
@@ -1599,7 +1599,7 @@
 			</Images>
 		</BlockGenus>
 		
-		<BlockGenus name="ultrasonic" kind="data" color="77 191 169" initlabel="bg.ultrasonic">
+		<BlockGenus name="ultrasonic" kind="data" color="59 218 38" initlabel="bg.ultrasonic">
 			<description>
 				<text>Ultrasonic distance sensor</text>
 			</description>
@@ -3102,7 +3102,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="df_dht11_temperature" kind="data" color="77 191 169" initlabel="bg.df_dht11_temperature">
+		<BlockGenus name="df_dht11_temperature" kind="data" color="59 218 38" initlabel="bg.df_dht11_temperature">
 			<description>
 				<text>Read analog value from pin</text>
 			</description>
@@ -3114,7 +3114,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="df_dht11_humidity" kind="data" color="77 191 169" initlabel="bg.df_dht11_humidity">
+		<BlockGenus name="df_dht11_humidity" kind="data" color="59 218 38" initlabel="bg.df_dht11_humidity">
 			<description>
 				<text>Read analog value from pin</text>
 			</description>
@@ -9039,22 +9039,16 @@
 				<BlockGenusMember>subroutine</BlockGenusMember>
 				<BlockGenusMember>subroutine-ref</BlockGenusMember>
 			</BlockDrawer>
-			<BlockDrawer button-color="29 152 155" name="bd.pins" type="factory">
+			<BlockDrawer button-color="59 218 38" name="bd.pins" type="factory">
 				<BlockGenusMember>pin-read-digital</BlockGenusMember>
 				<BlockGenusMember>pin-read-analog</BlockGenusMember>
 				<BlockGenusMember>pin-write-digital</BlockGenusMember>
 				<BlockGenusMember>pin-write-analog</BlockGenusMember>
 				<BlockGenusMember>df_servo</BlockGenusMember>
 				<BlockGenusMember>df_360_degree_rotation_motor</BlockGenusMember>
-				<BlockGenusMember>ultrasonic</BlockGenusMember>
-				<BlockGenusMember>df_dht11_temperature</BlockGenusMember>
-				<BlockGenusMember>df_dht11_humidity</BlockGenusMember>
 				<BlockGenusMember>tone</BlockGenusMember>
 				<BlockGenusMember>tone_time</BlockGenusMember>
 				<BlockGenusMember>no_tone</BlockGenusMember>
-				<BlockGenusMember>DDRA</BlockGenusMember>
-				<BlockGenusMember>PORTA</BlockGenusMember>
-				<BlockGenusMember>PINA</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="255 163 82" name="bd.logic" type="factory">
 				<BlockGenusMember>greater</BlockGenusMember>
