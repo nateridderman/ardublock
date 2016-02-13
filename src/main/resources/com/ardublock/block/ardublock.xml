@@ -190,7 +190,7 @@
 				<BlockConnector label="bc.commands" connector-type="cmd" connector-kind="socket" />
 			</BlockConnectors>
 		</BlockGenus>
-		<BlockGenus name="subroutine" kind="command" color="200 200 0" initlabel="bg.subroutine" is-starter="yes" is-terminator="yes" label-unique="yes" editable-label="yes">
+		<BlockGenus name="subroutine" kind="command" color="200 0 200" initlabel="bg.subroutine" is-starter="yes" is-terminator="yes" label-unique="yes" editable-label="yes">
 			<description>
 				<text>subroutine</text>
 			</description>
@@ -199,7 +199,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 
-		<BlockGenus name="subroutine-ref" kind="command" color="200 200 0" initlabel="bg.subroutine" editable-label="yes">
+		<BlockGenus name="subroutine-ref" kind="command" color="200 0 200" initlabel="bg.subroutine" editable-label="yes">
 			<description>
 				<text>invoke subroutine</text>
 			</description>
