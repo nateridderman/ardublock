@@ -11,7 +11,7 @@ public abstract class AbstractTinkerWriteAnalogBlock extends TranslatorBlock
 	AbstractTinkerWriteAnalogBlock(Long blockId, Translator translator, String codePrefix, String codeSuffix, String label)
 	{
 		super(blockId, translator, codePrefix, codeSuffix, label);
-		translator.addHeaderFile("TinkerKit.h");
+		//translator.addHeaderFile("TinkerKit.h");
 	}
 	
 	@Override
