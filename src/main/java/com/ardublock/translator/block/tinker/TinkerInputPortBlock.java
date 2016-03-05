@@ -10,7 +10,7 @@ public class TinkerInputPortBlock extends TranslatorBlock
 	public TinkerInputPortBlock(Long blockId, Translator translator, String codePrefix, String codeSuffix, String label)
 	{
 		super(blockId, translator, codePrefix, codeSuffix, label);
-		translator.addHeaderFile("TinkerKit.h");
+		//translator.addHeaderFile("TinkerKit.h");
 	}
 
 	@Override
