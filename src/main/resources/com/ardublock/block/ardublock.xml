@@ -1547,7 +1547,7 @@
 	      </BlockConnectors>
 	    </BlockGenus>
 		<!--****************** Utilities *************** -->		
-		<BlockGenus name="servo_default" kind="command" color="201 52 57" label-prefix="Servo: " initlabel="bg.servo">
+		<BlockGenus name="servo_default" kind="command" color="255 61 146" label-prefix="Servo: " initlabel="bg.servo">
 			<description>
 				<text>Servo Default</text>
 			</description>
