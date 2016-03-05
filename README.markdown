@@ -52,7 +52,7 @@ The original code (https://github.com/taweili/ardublock) was developed at MIT an
 * David Li taweili@gmail.com
 * HE Qichen heqichen@gmail.com
 
-The author/maintainer of this branch can be contacted at greg.corbett@stfc.ac.uk.
+The author/maintainer of this fork can be contacted at greg.corbett@stfc.ac.uk.
 
 ##License
 Copyright (C) 2011 David Li and He Qichen
