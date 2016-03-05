@@ -2862,7 +2862,7 @@
 		</BlockGenus>
 
 
-		<BlockGenus name="df_temperature_sensor" kind="data" color="255 102 0" initlabel="bg.df_temperature_sensor">
+		<BlockGenus name="df_temperature_sensor" kind="data" color="255 255 255" initlabel="bg.df_temperature_sensor">
 			<description>
 				<text>Read analog value from pin</text>
 			</description>
@@ -9087,7 +9087,6 @@
 				<BlockGenusMember>number_double</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="255 61 146" name="bd.utilities" type="factory">
-				<BlockGenusMember>df_temperature_sensor</BlockGenusMember>
 				<BlockGenusMember>servo_default</BlockGenusMember>
 				<BlockGenusMember>tone</BlockGenusMember>
 				<BlockGenusMember>tone_time</BlockGenusMember>
@@ -9111,6 +9110,7 @@
 				<BlockGenusMember>Tinker_LED_pwm</BlockGenusMember>
 				<BlockGenusMember>Tinker_Button</BlockGenusMember>
 				<BlockGenusMember>Tinker_LDR</BlockGenusMember>
+				<BlockGenusMember>df_temperature_sensor</BlockGenusMember>
 			</BlockDrawer>
 		</BlockDrawerSet>
 	</BlockDrawerSets>
