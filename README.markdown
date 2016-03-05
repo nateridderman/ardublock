@@ -1,21 +1,34 @@
-ArduBlock
-======
+#ArduBlock
+
 
 ArduBlock is a Block Programming Language for Arduino. The language and functions model closely to [Arduino Language Reference](http://arduino.cc/en/Reference/HomePage)
 
-Installation
-----
+##Users
+Ardublock is a free graphical programming environment to make programming physical computing with Arduino as easy as drag and drop. It is based on the popular ‘scratch’ programming language, which many will already be familiar with.  Ardublock generates code in C, a text based language used by the Arduino IDE, which can then be studied and modified if desired. Ardublock is an extension to the Arduino IDE so that will need to be downloaded as well (found here https://www.arduino.cc/en/Main/Software).  Code written in the Arduino IDE has the file extension .abp.
+
+####Getting Started with ArduBlock
+1. Install the Arduino IDE, from https://www.arduino.cc/en/Main/Software
+2. Download ardublock-all.jar from here
+3. Copy ardublock-all.jar to C:/Users/<username>/Arduino/tools/ArduBlockTool/tool/ardublock-all.jar under 
+- In Mac, /Users/<username>/Documents/Arduino/tools/ArduBlockTool/tool/ardublock-all.jar
+- In Linux, /home/<username>/sketchbook/tools/ArduBlockTool/tool/ardublock-all.jar
+- Be careful, the name of folder “ArduBlockTool” under tools folder is case sensitive.
+4. Start the Arduino IDE and find ArduBlock under the Tool menu
+
+##Developers
+If you wish to develop ardublock, follow the instructions below. A prerequsite is openblocks, which can be found here https://github.com/gregcorbett/openblocks/archive/v1.0.zip
+###Installation
+
 The project is managed by Maven. After checking out the source for the first time, one should run the following to install Arduino's pde.jar into the local repository. 
 
 	$ mvn validate
 
-Usage
-----
+###Usage
 
 	$ mvn exec:java -Dexec.mainClass="com.ardublock.Main"
 
-Development
-----
+###Development
+
 Change the /src/main/resources/com/ardublock/block/ardublock_def.xml to add new blocks to ArduBlock
 
 	$ mvn clean package
@@ -24,27 +37,24 @@ Change the /src/main/resources/com/ardublock/block/ardublock_def.xml to add new 
 
 The Visual Block environment should show up. Happy Hacking! ;) 
 
-Deploy
-----
+###Deploy
+
 Edit code of ardublock
 
 	$ mvn clean package
 
 copy the target/ardublock-all.jar to Arduino\tools\ArduBlockTool\tool
 
-Authors
-----
+###Authors
+
+The original code (https://github.com/taweili/ardublock) was developed at MIT and the authors can be contacted below.
+
 * David Li taweili@gmail.com
 * HE Qichen heqichen@gmail.com
 
+The author/maintainer of this branch can be contacted via github.
 
-ToDo
-----
-* Integrate the [scripting engine](http://java.sun.com/developer/technicalArticles/J2SE/Desktop/scripting/) into the language blocks for code generation
-
-License
-----
-
+###License
 Copyright (C) 2011 David Li and He Qichen
 
 This file is part of ArduBlock.
