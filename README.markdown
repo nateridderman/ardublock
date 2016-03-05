@@ -10,9 +10,9 @@ Ardublock is a free graphical programming environment to make programming physic
 1. Install the Arduino IDE, from https://www.arduino.cc/en/Main/Software
 2. Download ardublock-all.jar from here
 3. Copy ardublock-all.jar to C:/Users/<username>/Arduino/tools/ArduBlockTool/tool/ardublock-all.jar under 
-- In Mac, /Users/<username>/Documents/Arduino/tools/ArduBlockTool/tool/ardublock-all.jar
-- In Linux, /home/<username>/sketchbook/tools/ArduBlockTool/tool/ardublock-all.jar
-- Be careful, the name of folder “ArduBlockTool” under tools folder is case sensitive.
+* In Mac, /Users/<username>/Documents/Arduino/tools/ArduBlockTool/tool/ardublock-all.jar
+* In Linux, /home/<username>/sketchbook/tools/ArduBlockTool/tool/ardublock-all.jar
+* Be careful, the name of folder “ArduBlockTool” under tools folder is case sensitive.
 4. Start the Arduino IDE and find ArduBlock under the Tool menu
 
 ##Developers
@@ -45,7 +45,7 @@ Edit code of ardublock
 
 copy the target/ardublock-all.jar to Arduino\tools\ArduBlockTool\tool
 
-###Authors
+##Authors
 
 The original code (https://github.com/taweili/ardublock) was developed at MIT and the authors can be contacted below.
 
@@ -54,7 +54,7 @@ The original code (https://github.com/taweili/ardublock) was developed at MIT an
 
 The author/maintainer of this branch can be contacted at greg.corbett@stfc.ac.uk.
 
-###License
+##License
 Copyright (C) 2011 David Li and He Qichen
 
 This file is part of ArduBlock.
