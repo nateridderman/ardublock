@@ -2197,13 +2197,46 @@
 		</BlockGenus>
 		
 		<!--************************************************************** FaireBot! ********************************************************************** -->
-		<BlockGenus name="FaireBot_Forward" kind="command" color="255 255 255" initlabel="bg.FaireBot_Forward">
+		<BlockGenus name="FaireBot_Forward" kind="command" color="55 155 255" initlabel="bg.FaireBot_Forward">
 			<description>
 				<text>FaireBot Forward</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
 					<DefaultArg genus-name="number" label="30" />
+				</BlockConnector>
+			</BlockConnectors>
+		</BlockGenus>
+		
+		<BlockGenus name="FaireBot_Backward" kind="command" color="55 155 255" initlabel="bg.FaireBot_Backward">
+			<description>
+				<text>FaireBot Backward</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="30" />
+				</BlockConnector>
+			</BlockConnectors>
+		</BlockGenus>
+		
+		<BlockGenus name="FaireBot_Left" kind="command" color="55 155 255" initlabel="bg.FaireBot_Left">
+			<description>
+				<text>FaireBot Left</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="11" />
+				</BlockConnector>
+			</BlockConnectors>
+		</BlockGenus>
+		
+		<BlockGenus name="FaireBot_Right" kind="command" color="55 155 255" initlabel="bg.FaireBot_Right">
+			<description>
+				<text>FaireBot Right</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="11" />
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
@@ -9121,7 +9154,12 @@
 				<BlockGenusMember>Tinker_Button</BlockGenusMember>
 				<BlockGenusMember>Tinker_LDR</BlockGenusMember>
 				<BlockGenusMember>df_temperature_sensor</BlockGenusMember>
+			</BlockDrawer>
+            <BlockDrawer button-color="55 155 255" name="bd.fairebot" type="factory">			
 				<BlockGenusMember>FaireBot_Forward</BlockGenusMember>
+				<BlockGenusMember>FaireBot_Left</BlockGenusMember>
+				<BlockGenusMember>FaireBot_Backward</BlockGenusMember>
+				<BlockGenusMember>FaireBot_Right</BlockGenusMember>
 			</BlockDrawer>
 		</BlockDrawerSet>
 	</BlockDrawerSets>

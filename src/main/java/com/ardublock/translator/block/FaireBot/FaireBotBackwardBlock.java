@@ -7,9 +7,9 @@ import com.ardublock.translator.block.exception.SocketNullException;
 import com.ardublock.translator.block.exception.SubroutineNotDeclaredException;
 import com.ardublock.translator.block.exception.BlockException;
 
-public class FaireBotForwardBlock extends TranslatorBlock
+public class FaireBotBackwardBlock extends TranslatorBlock
 {
-	public FaireBotForwardBlock(Long blockId, Translator translator, String codePrefix, String codeSuffix, String label)
+	public FaireBotBackwardBlock(Long blockId, Translator translator, String codePrefix, String codeSuffix, String label)
 	{
 		super(blockId, translator, codePrefix, codeSuffix, label);
 	}
@@ -30,10 +30,10 @@ public class FaireBotForwardBlock extends TranslatorBlock
 		
 		//translatorBlock = this.getRequiredTranslatorBlockAtSocket(1);
 		
-		String ret = "digitalWrite(8, HIGH);\n";
+		String ret = "digitalWrite(10, HIGH);\n";
         ret = ret + "for (int i = 0; i < " + rotationNumber + "; i++)\n{"; 
-		ret = ret + "  leftServo.write(180);\n  rightServo.write(0);\n  delay(30);\n}";
-        ret = ret + "digitalWrite(8, LOW);\nleftServo.write(90);\nrightServo.write(90);\ndelay(30);";
+		ret = ret + "  leftServo.write(0);\n  rightServo.write(180);\n  delay(30);\n}";
+        ret = ret + "digitalWrite(10, LOW);\nleftServo.write(90);\nrightServo.write(90);\ndelay(30);";
 		
 		//servoName + ".write( " + translatorBlock.toCode() + " );\n";
 		translator.addHeaderFile("Servo.h");
