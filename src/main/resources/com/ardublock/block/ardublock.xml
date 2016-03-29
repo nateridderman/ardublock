@@ -2196,7 +2196,17 @@
 			</description>
 		</BlockGenus>
 		
-		
+		<!--************************************************************** FaireBot! ********************************************************************** -->
+		<BlockGenus name="FaireBot_Forward" kind="command" color="255 255 255" initlabel="bg.FaireBot_Forward">
+			<description>
+				<text>FaireBot Forward</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="30" />
+				</BlockConnector>
+			</BlockConnectors>
+		</BlockGenus>
 		
 		<!--************************************************************** TinkerKit! ********************************************************************** -->
 		<BlockGenus name="Tinker_LED" kind="command" color="255 255 255" initlabel="bg.Tinker_LED">
@@ -9111,6 +9121,7 @@
 				<BlockGenusMember>Tinker_Button</BlockGenusMember>
 				<BlockGenusMember>Tinker_LDR</BlockGenusMember>
 				<BlockGenusMember>df_temperature_sensor</BlockGenusMember>
+				<BlockGenusMember>FaireBot_Forward</BlockGenusMember>
 			</BlockDrawer>
 		</BlockDrawerSet>
 	</BlockDrawerSets>
