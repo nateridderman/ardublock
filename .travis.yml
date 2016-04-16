@@ -4,4 +4,4 @@ language: java
   - oraclejdk7
   - oraclejdk6
 before_install: ./install_openblocks
-install: mvn validate && mvn install
+install: mvn validate && mvn clean package && mvn compile exec:java -Dexec.mainClass="com.ardublock.Main"
