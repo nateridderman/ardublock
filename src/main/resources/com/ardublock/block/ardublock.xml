@@ -2240,6 +2240,12 @@
 				</BlockConnector>
 			</BlockConnectors>
 		</BlockGenus>
+        
+        <BlockGenus name="FaireBot_Memory" kind="command" color="55 155 255" initlabel="bg.FaireBot_Memory">
+			<description>
+				<text>FaireBot Memory</text>
+			</description>
+		</BlockGenus>
 		
 		<!--************************************************************** TinkerKit! ********************************************************************** -->
 		<BlockGenus name="Tinker_LED" kind="command" color="255 255 255" initlabel="bg.Tinker_LED">
@@ -9160,6 +9166,7 @@
 				<BlockGenusMember>FaireBot_Left</BlockGenusMember>
 				<BlockGenusMember>FaireBot_Backward</BlockGenusMember>
 				<BlockGenusMember>FaireBot_Right</BlockGenusMember>
+                <BlockGenusMember>FaireBot_Memory</BlockGenusMember>
 			</BlockDrawer>
 		</BlockDrawerSet>
 	</BlockDrawerSets>
