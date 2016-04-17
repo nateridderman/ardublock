@@ -9111,6 +9111,7 @@
 				<BlockGenusMember>Tinker_Button</BlockGenusMember>
 				<BlockGenusMember>Tinker_LDR</BlockGenusMember>
 				<BlockGenusMember>df_temperature_sensor</BlockGenusMember>
+                <BlockGenusMember>ultrasonic</BlockGenusMember>
 			</BlockDrawer>
 		</BlockDrawerSet>
 	</BlockDrawerSets>
