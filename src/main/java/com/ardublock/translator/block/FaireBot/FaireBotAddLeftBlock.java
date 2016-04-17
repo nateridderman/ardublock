@@ -5,7 +5,6 @@ import com.ardublock.translator.block.NumberBlock;
 import com.ardublock.translator.block.TranslatorBlock;
 import com.ardublock.translator.block.exception.SocketNullException;
 import com.ardublock.translator.block.exception.SubroutineNotDeclaredException;
-import com.ardublock.translator.block.exception.BlockException;
 
 public class FaireBotAddLeftBlock extends TranslatorBlock
 {
