@@ -79,6 +79,7 @@ public class FaireBotGoBlock extends TranslatorBlock
         ret = ret + "rightServo.write(90);";
         ret = ret + "delay(30);";
         ret = ret + "}";
+        ret = ret + "delay(1000);";
         ret = ret + "}";
         
 		return ret;
