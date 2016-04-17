@@ -82,7 +82,7 @@ public class FaireBotGoBlock extends TranslatorBlock
         ret = ret + "delay(1000);";
         ret = ret + "}";
         
-		return ret;
+        return ret;
 	}
 
 }
