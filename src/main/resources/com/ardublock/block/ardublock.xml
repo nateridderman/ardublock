@@ -2283,6 +2283,29 @@
 			</description>
 		</BlockGenus>
         
+        
+        <BlockGenus name="FaireBot_Distance" kind="command" color="55 155 255" initlabel="bg.FaireBot_Distance">
+			<description>
+				<text>FaireBot Set Distance</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="30" />
+				</BlockConnector>
+			</BlockConnectors>
+		</BlockGenus>
+        
+        <BlockGenus name="FaireBot_Turn" kind="command" color="55 155 255" initlabel="bg.FaireBot_Turn">
+			<description>
+				<text>FaireBot Set Turn</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="11" />
+				</BlockConnector>
+			</BlockConnectors>
+		</BlockGenus>
+        
 		<!--************************************************************** TinkerKit! ********************************************************************** -->
 		<BlockGenus name="Tinker_LED" kind="command" color="255 255 255" initlabel="bg.Tinker_LED">
 			<description>
@@ -9209,6 +9232,8 @@
 				<BlockGenusMember>FaireBot_AddBackward</BlockGenusMember>
 				<BlockGenusMember>FaireBot_AddRight</BlockGenusMember>
                 <BlockGenusMember>FaireBot_Go</BlockGenusMember>
+                <BlockGenusMember>FaireBot_Distance</BlockGenusMember>
+                <BlockGenusMember>FaireBot_Turn</BlockGenusMember>
 			</BlockDrawer>
 		</BlockDrawerSet>
 	</BlockDrawerSets>

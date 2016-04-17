@@ -33,7 +33,7 @@ public class FaireBotGoBlock extends TranslatorBlock
         ret = ret + "command = memory[i];";
         ret = ret + "if (command == FAIRE_forward) {";
         ret = ret + "digitalWrite(8, HIGH);";
-        ret = ret + "for (int i = 0; i < 30; i++) {";
+        ret = ret + "for (int i = 0; i < FAIRE_movementDistance; i++) {";
         ret = ret + "leftServo.write(180);";
         ret = ret + "rightServo.write(0);";
         ret = ret + "delay(30);";
@@ -45,7 +45,7 @@ public class FaireBotGoBlock extends TranslatorBlock
         ret = ret + "}";
         ret = ret + "else if (command == FAIRE_backward) {";
         ret = ret + "digitalWrite(10, HIGH);";
-        ret = ret + "for (int i = 0; i < 30; i++) {";
+        ret = ret + "for (int i = 0; i < FAIRE_movementDistance; i++) {";
         ret = ret + "leftServo.write(0);";
         ret = ret + "rightServo.write(180);";
         ret = ret + "delay(30);";
@@ -57,7 +57,7 @@ public class FaireBotGoBlock extends TranslatorBlock
         ret = ret + "}";
         ret = ret + "else if (command == FAIRE_right) {";
         ret = ret + "digitalWrite(7, HIGH);";
-        ret = ret + "for (int i = 0; i < 11; i++) {";
+        ret = ret + "for (int i = 0; i < FAIRE_turn; i++) {";
         ret = ret + "leftServo.write(0);";
         ret = ret + "rightServo.write(0);"; 
         ret = ret + "delay(30);";
@@ -69,7 +69,7 @@ public class FaireBotGoBlock extends TranslatorBlock
         ret = ret + "}";
         ret = ret + "else if (command == FAIRE_left) {";
         ret = ret + "digitalWrite(9, HIGH);";
-        ret = ret + "for (int i = 0; i < 11; i++) {";
+        ret = ret + "for (int i = 0; i < FAIRE_turn; i++) {";
         ret = ret + "leftServo.write(180);";
         ret = ret + "rightServo.write(180);"; 
         ret = ret + "delay(30);";
