@@ -17,8 +17,8 @@ public class FaireBotMemoryBlock extends TranslatorBlock
 	@Override
 	public String toCode() throws SocketNullException, SubroutineNotDeclaredException
 	{
-		translator.addSetupCommand("int memory[100];");
-		translator.addSetupCommand("int memoryPtr = 0;");
+		translator.addDefinitionCommand("int memory[100];");
+		translator.addDefinitionCommand("int memoryPtr = 0;");
 		return "";
 	}
 

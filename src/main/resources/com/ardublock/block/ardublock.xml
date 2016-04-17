@@ -2277,6 +2277,12 @@
 			</description>
 		</BlockGenus>
         
+        <BlockGenus name="FaireBot_Go" kind="command" color="55 155 255" initlabel="bg.FaireBot_Go">
+			<description>
+				<text>FaireBot Go</text>
+			</description>
+		</BlockGenus>
+        
 		<!--************************************************************** TinkerKit! ********************************************************************** -->
 		<BlockGenus name="Tinker_LED" kind="command" color="255 255 255" initlabel="bg.Tinker_LED">
 			<description>
@@ -9202,6 +9208,7 @@
 				<BlockGenusMember>FaireBot_AddLeft</BlockGenusMember>
 				<BlockGenusMember>FaireBot_AddBackward</BlockGenusMember>
 				<BlockGenusMember>FaireBot_AddRight</BlockGenusMember>
+                <BlockGenusMember>FaireBot_Go</BlockGenusMember>
 			</BlockDrawer>
 		</BlockDrawerSet>
 	</BlockDrawerSets>
