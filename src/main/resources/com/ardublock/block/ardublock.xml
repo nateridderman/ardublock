@@ -2253,6 +2253,30 @@
 			</description>
 		</BlockGenus>
 		
+        <BlockGenus name="FaireBot_AddForward" kind="command" color="55 155 255" initlabel="bg.FaireBot_AddForward">
+			<description>
+				<text>FaireBot AddForward</text>
+			</description>
+		</BlockGenus>
+        
+        <BlockGenus name="FaireBot_AddBackward" kind="command" color="55 155 255" initlabel="bg.FaireBot_AddBackward">
+			<description>
+				<text>FaireBot AddBackward</text>
+			</description>
+		</BlockGenus>
+        
+        <BlockGenus name="FaireBot_AddLeft" kind="command" color="55 155 255" initlabel="bg.FaireBot_AddLeft">
+			<description>
+				<text>FaireBot AddLeft</text>
+                </description>
+		</BlockGenus>
+        
+        <BlockGenus name="FaireBot_AddRight" kind="command" color="55 155 255" initlabel="bg.FaireBot_AddRight">
+			<description>
+				<text>FaireBot AddRight</text>
+			</description>
+		</BlockGenus>
+        
 		<!--************************************************************** TinkerKit! ********************************************************************** -->
 		<BlockGenus name="Tinker_LED" kind="command" color="255 255 255" initlabel="bg.Tinker_LED">
 			<description>
@@ -9167,13 +9191,17 @@
 				<BlockGenusMember>Tinker_LDR</BlockGenusMember>
 				<BlockGenusMember>df_temperature_sensor</BlockGenusMember>
 			</BlockDrawer>
-            <BlockDrawer button-color="55 155 255" name="bd.fairebot" type="factory">			
+            <BlockDrawer button-color="55 155 255" name="bd.Fairebot" type="factory">			
 				<BlockGenusMember>FaireBot_Forward</BlockGenusMember>
 				<BlockGenusMember>FaireBot_Left</BlockGenusMember>
 				<BlockGenusMember>FaireBot_Backward</BlockGenusMember>
 				<BlockGenusMember>FaireBot_Right</BlockGenusMember>
                 <BlockGenusMember>FaireBot_Memory</BlockGenusMember>
                 <BlockGenusMember>FaireBot_MemoryReset</BlockGenusMember>
+				<BlockGenusMember>FaireBot_AddForward</BlockGenusMember>
+				<BlockGenusMember>FaireBot_AddLeft</BlockGenusMember>
+				<BlockGenusMember>FaireBot_AddBackward</BlockGenusMember>
+				<BlockGenusMember>FaireBot_AddRight</BlockGenusMember>
 			</BlockDrawer>
 		</BlockDrawerSet>
 	</BlockDrawerSets>
