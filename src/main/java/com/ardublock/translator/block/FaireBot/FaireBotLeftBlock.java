@@ -43,6 +43,8 @@ public class FaireBotLeftBlock extends TranslatorBlock
         translator.addSetupCommand("pinMode( 9 , OUTPUT);");
         translator.addSetupCommand("leftServo.attach(A1);");
         translator.addSetupCommand("rightServo.attach(A2);");
+        translator.addSetupCommand("leftServo.write(90);");
+        translator.addSetupCommand("rightServo.write(90);");
         return ret;
     }
 
