@@ -30,10 +30,10 @@ public class FaireBotLeftBlock extends TranslatorBlock
         
         //translatorBlock = this.getRequiredTranslatorBlockAtSocket(1);
         
-        String ret = "digitalWrite(7, HIGH);";
+        String ret = "digitalWrite(9, HIGH);";
         ret = ret + "for (int i = 0; i < " + rotationNumber + "; i++) {"; 
-        ret = ret + "leftServo.write(0); rightServo.write(0); delay(30);}";
-        ret = ret + "digitalWrite(7, LOW);";
+        ret = ret + "leftServo.write(180); rightServo.write(180); delay(30);}";
+        ret = ret + "digitalWrite(9, LOW);";
         ret = ret + "leftServo.write(90); rightServo.write(90); delay(30);";
         
         //servoName + ".write( " + translatorBlock.toCode() + " );\n";
