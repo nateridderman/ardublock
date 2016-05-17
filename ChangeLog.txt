@@ -1,0 +1,7 @@
+Changelog
+
+Add blocks to support FaireBot: https://www.youtube.com/watch?v=ru-OUyFdxc4
+
+========== Version 1.0.0 ==========
+
+First Release (of this fork)
