@@ -1,5 +1,7 @@
 Changelog
 
+========== Version 1.1.0 ==========
+
 Add blocks to support FaireBot: https://www.youtube.com/watch?v=ru-OUyFdxc4
 
 ========== Version 1.0.0 ==========
