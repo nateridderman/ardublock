@@ -9218,6 +9218,7 @@
 				<BlockGenusMember>Tinker_LED_pwm</BlockGenusMember>
 				<BlockGenusMember>Tinker_Button</BlockGenusMember>
 				<BlockGenusMember>Tinker_LDR</BlockGenusMember>
+				<BlockGenusMember>Tinker_Tilt</BlockGenusMember>
 				<BlockGenusMember>df_temperature_sensor</BlockGenusMember>
 			</BlockDrawer>
             <BlockDrawer button-color="55 155 255" name="bd.Fairebot" type="factory">			
