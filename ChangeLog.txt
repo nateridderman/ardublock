@@ -3,7 +3,8 @@ Changelog
 ========== Version 1.1.0 ==========
 
 Add blocks to support FaireBot: https://www.youtube.com/watch?v=ru-OUyFdxc4
-Re add Tilt Switch
+Re-add Tilt Switch block and fix of the pin# bug
+Re-add pin# to LED block instead of #
 Rename "Tests" to "Logical Operators"
 
 ========== Version 1.0.0 ==========
