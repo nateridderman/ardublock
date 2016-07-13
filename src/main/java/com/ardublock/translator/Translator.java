@@ -25,7 +25,7 @@ import edu.mit.blocks.workspace.Workspace;
 
 public class Translator
 {
-	private static final String variablePrefix = "_ABVAR_";
+	private static final String variablePrefix = "";
 
 	private Set<String> headerFileSet;
 	private Set<String> definitionSet;
@@ -284,8 +284,7 @@ public class Translator
 	
 	public String buildVariableName(String reference)
 	{
-		variableCnt = variableCnt + 1;
-		String varName = variablePrefix + variableCnt + "_";
+		String varName = "";
 		int i;
 		for (i=0; i<reference.length(); ++i)
 		{
