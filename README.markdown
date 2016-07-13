@@ -4,7 +4,12 @@
 ArduBlock is a Block Programming Language for Arduino. The language and functions model closely to [Arduino Language Reference](http://arduino.cc/en/Reference/HomePage)
 
 ##Users
-Ardublock is a free graphical programming environment to make programming physical computing with Arduino as easy as drag and drop. It is based on the popular ‘scratch’ programming language, which many will already be familiar with.  Ardublock generates code in C, a text based language used by the Arduino IDE, which can then be studied and modified if desired. Ardublock is an extension to the Arduino IDE so that will need to be downloaded as well (found here https://www.arduino.cc/en/Main/Software).  Code written in the Arduino IDE has the file extension .abp.
+Ardublock is a free graphical programming environment to make programming physical computing with Arduino as easy as drag and drop. It is based on the popular ‘scratch’ programming language, which many will already be familiar with.  Ardublock generates code in C, a text based language used by the Arduino IDE, which can then be studied and modified if desired. 
+
+Ardublock is an extension to the Arduino IDE so that will need to be downloaded as well (found here https://www.arduino.cc/en/Main/Software).  
+* Ardublock has been tested with version 1.0.5-r2, available here: http://arduino.googlecode.com/files/arduino-1.0.5-r2-windows.exe
+
+Code written in Ardublock has the file extension .abp.
 
 ####Getting Started with ArduBlock
 1. Install the Arduino IDE, from https://www.arduino.cc/en/Main/Software
