@@ -1389,7 +1389,7 @@
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.variable">
-					<DefaultArg genus-name="variable_number" label="integer variable name" />
+					<DefaultArg genus-name="variable_number" label="numeric variable name" />
 				</BlockConnector>
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.value">
 					<DefaultArg genus-name="number" label="0" />
@@ -1417,10 +1417,10 @@
 	      </description>
 	      <BlockConnectors>
 	        <BlockConnector connector-type="number" connector-kind="socket" label="bc.variable">
-	          <DefaultArg genus-name="variable_number_double" label="Decimal variable name" />
+	          <DefaultArg genus-name="variable_number" label="numeric variable name" />
 	        </BlockConnector>
 	        <BlockConnector connector-type="number" connector-kind="socket" label="bc.value">
-	          <DefaultArg genus-name="number_double" label="3.1415927" />
+	          <DefaultArg genus-name="number" label="3.1415927" />
 	        </BlockConnector>
 	      </BlockConnectors>
 	    </BlockGenus>
@@ -2196,15 +2196,123 @@
 			</description>
 		</BlockGenus>
 		
+		<!--************************************************************** FaireBot! ********************************************************************** -->
+		<BlockGenus name="FaireBot_Forward" kind="command" color="55 155 255" initlabel="bg.FaireBot_Forward">
+			<description>
+				<text>FaireBot Forward</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="30" />
+				</BlockConnector>
+			</BlockConnectors>
+		</BlockGenus>
 		
+		<BlockGenus name="FaireBot_Backward" kind="command" color="55 155 255" initlabel="bg.FaireBot_Backward">
+			<description>
+				<text>FaireBot Backward</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="30" />
+				</BlockConnector>
+			</BlockConnectors>
+		</BlockGenus>
 		
+		<BlockGenus name="FaireBot_Left" kind="command" color="55 155 255" initlabel="bg.FaireBot_Left">
+			<description>
+				<text>FaireBot Left</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="11" />
+				</BlockConnector>
+			</BlockConnectors>
+		</BlockGenus>
+		
+		<BlockGenus name="FaireBot_Right" kind="command" color="55 155 255" initlabel="bg.FaireBot_Right">
+			<description>
+				<text>FaireBot Right</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="11" />
+				</BlockConnector>
+			</BlockConnectors>
+		</BlockGenus>
+        
+        <BlockGenus name="FaireBot_Memory" kind="command" color="55 155 255" initlabel="bg.FaireBot_Memory">
+			<description>
+				<text>FaireBot Memory</text>
+			</description>
+		</BlockGenus>
+        
+        <BlockGenus name="FaireBot_MemoryReset" kind="command" color="55 155 255" initlabel="bg.FaireBot_MemoryReset">
+			<description>
+				<text>FaireBot MemoryReset</text>
+			</description>
+		</BlockGenus>
+		
+        <BlockGenus name="FaireBot_AddForward" kind="command" color="55 155 255" initlabel="bg.FaireBot_AddForward">
+			<description>
+				<text>FaireBot AddForward</text>
+			</description>
+		</BlockGenus>
+        
+        <BlockGenus name="FaireBot_AddBackward" kind="command" color="55 155 255" initlabel="bg.FaireBot_AddBackward">
+			<description>
+				<text>FaireBot AddBackward</text>
+			</description>
+		</BlockGenus>
+        
+        <BlockGenus name="FaireBot_AddLeft" kind="command" color="55 155 255" initlabel="bg.FaireBot_AddLeft">
+			<description>
+				<text>FaireBot AddLeft</text>
+                </description>
+		</BlockGenus>
+        
+        <BlockGenus name="FaireBot_AddRight" kind="command" color="55 155 255" initlabel="bg.FaireBot_AddRight">
+			<description>
+				<text>FaireBot AddRight</text>
+			</description>
+		</BlockGenus>
+        
+        <BlockGenus name="FaireBot_Go" kind="command" color="55 155 255" initlabel="bg.FaireBot_Go">
+			<description>
+				<text>FaireBot Go</text>
+			</description>
+		</BlockGenus>
+        
+        
+        <BlockGenus name="FaireBot_Distance" kind="command" color="55 155 255" initlabel="bg.FaireBot_Distance">
+			<description>
+				<text>FaireBot Set Distance</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="30" />
+				</BlockConnector>
+			</BlockConnectors>
+		</BlockGenus>
+        
+        <BlockGenus name="FaireBot_Turn" kind="command" color="55 155 255" initlabel="bg.FaireBot_Turn">
+			<description>
+				<text>FaireBot Set Turn</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+					<DefaultArg genus-name="number" label="11" />
+				</BlockConnector>
+			</BlockConnectors>
+		</BlockGenus>
+        
 		<!--************************************************************** TinkerKit! ********************************************************************** -->
 		<BlockGenus name="Tinker_LED" kind="command" color="255 255 255" initlabel="bg.Tinker_LED">
 			<description>
 				<text>TinkerKit LED</text>
 			</description>
 			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.pin_number">
 					<DefaultArg genus-name="number" label="2" />
 				</BlockConnector>
 				<BlockConnector connector-type="boolean" connector-kind="socket" label="bc.status">
@@ -2223,7 +2331,7 @@
 				<text>TinkerKit LED</text>
 			</description>
 			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.pin_number">
 					<DefaultArg genus-name="number" label="2" />
 					<DefaultArg genus-name="number" label="2" />
 				</BlockConnector>
@@ -2364,7 +2472,7 @@
 			<BlockConnectors>
 				<BlockConnector connector-type="boolean" connector-kind="plug" />
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.pin_number">
-					<DefaultArg genus-name="Tinker_I1" label="I1" />
+					<DefaultArg genus-name="number" label="2" />
 				</BlockConnector>
 			</BlockConnectors>
 			<Images>
@@ -9074,17 +9182,15 @@
 			</BlockDrawer>
 			<BlockDrawer button-color="201 52 57" name="bd.number" type="factory">
 				<BlockGenusMember>number</BlockGenusMember>
-				<BlockGenusMember>setter_variable_number</BlockGenusMember>
 				<BlockGenusMember>variable_number</BlockGenusMember>
-				<BlockGenusMember>setter_variable_digital</BlockGenusMember>
-				<BlockGenusMember>variable_digital</BlockGenusMember>
+				<BlockGenusMember>setter_variable_number</BlockGenusMember>
+				<BlockGenusMember>setter_variable_number_double</BlockGenusMember>
 				<BlockGenusMember>digital-low</BlockGenusMember>
 				<BlockGenusMember>digital-high</BlockGenusMember>
 				<BlockGenusMember>true</BlockGenusMember>
 				<BlockGenusMember>false</BlockGenusMember>
-				<BlockGenusMember>setter_variable_number_double</BlockGenusMember>
-				<BlockGenusMember>variable_number_double</BlockGenusMember>
-				<BlockGenusMember>number_double</BlockGenusMember>
+				<BlockGenusMember>variable_digital</BlockGenusMember>
+				<BlockGenusMember>setter_variable_digital</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="255 61 146" name="bd.utilities" type="factory">
 				<BlockGenusMember>servo_default</BlockGenusMember>
@@ -9110,7 +9216,23 @@
 				<BlockGenusMember>Tinker_LED_pwm</BlockGenusMember>
 				<BlockGenusMember>Tinker_Button</BlockGenusMember>
 				<BlockGenusMember>Tinker_LDR</BlockGenusMember>
+				<BlockGenusMember>Tinker_Tilt</BlockGenusMember>
 				<BlockGenusMember>df_temperature_sensor</BlockGenusMember>
+			</BlockDrawer>
+            <BlockDrawer button-color="55 155 255" name="bd.Fairebot" type="factory">			
+				<BlockGenusMember>FaireBot_Forward</BlockGenusMember>
+				<BlockGenusMember>FaireBot_Left</BlockGenusMember>
+				<BlockGenusMember>FaireBot_Backward</BlockGenusMember>
+				<BlockGenusMember>FaireBot_Right</BlockGenusMember>
+                <BlockGenusMember>FaireBot_Memory</BlockGenusMember>
+                <BlockGenusMember>FaireBot_MemoryReset</BlockGenusMember>
+				<BlockGenusMember>FaireBot_AddForward</BlockGenusMember>
+				<BlockGenusMember>FaireBot_AddLeft</BlockGenusMember>
+				<BlockGenusMember>FaireBot_AddBackward</BlockGenusMember>
+				<BlockGenusMember>FaireBot_AddRight</BlockGenusMember>
+                <BlockGenusMember>FaireBot_Go</BlockGenusMember>
+                <BlockGenusMember>FaireBot_Distance</BlockGenusMember>
+                <BlockGenusMember>FaireBot_Turn</BlockGenusMember>
 			</BlockDrawer>
 		</BlockDrawerSet>
 	</BlockDrawerSets>
