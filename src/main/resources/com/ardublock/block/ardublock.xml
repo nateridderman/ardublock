@@ -1389,7 +1389,7 @@
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.variable">
-					<DefaultArg genus-name="variable_number" label="integer variable name" />
+					<DefaultArg genus-name="variable_number" label="numeric variable name" />
 				</BlockConnector>
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.value">
 					<DefaultArg genus-name="number" label="0" />
@@ -1417,10 +1417,10 @@
 	      </description>
 	      <BlockConnectors>
 	        <BlockConnector connector-type="number" connector-kind="socket" label="bc.variable">
-	          <DefaultArg genus-name="variable_number_double" label="Decimal variable name" />
+	          <DefaultArg genus-name="variable_number" label="numeric variable name" />
 	        </BlockConnector>
 	        <BlockConnector connector-type="number" connector-kind="socket" label="bc.value">
-	          <DefaultArg genus-name="number_double" label="3.1415927" />
+	          <DefaultArg genus-name="number" label="3.1415927" />
 	        </BlockConnector>
 	      </BlockConnectors>
 	    </BlockGenus>
@@ -2312,7 +2312,7 @@
 				<text>TinkerKit LED</text>
 			</description>
 			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.pin_number">
 					<DefaultArg genus-name="number" label="2" />
 				</BlockConnector>
 				<BlockConnector connector-type="boolean" connector-kind="socket" label="bc.status">
@@ -2331,7 +2331,7 @@
 				<text>TinkerKit LED</text>
 			</description>
 			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="bc.num">
+				<BlockConnector connector-type="number" connector-kind="socket" label="bc.pin_number">
 					<DefaultArg genus-name="number" label="2" />
 					<DefaultArg genus-name="number" label="2" />
 				</BlockConnector>
@@ -2472,7 +2472,7 @@
 			<BlockConnectors>
 				<BlockConnector connector-type="boolean" connector-kind="plug" />
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.pin_number">
-					<DefaultArg genus-name="Tinker_I1" label="I1" />
+					<DefaultArg genus-name="number" label="2" />
 				</BlockConnector>
 			</BlockConnectors>
 			<Images>
@@ -9182,17 +9182,15 @@
 			</BlockDrawer>
 			<BlockDrawer button-color="201 52 57" name="bd.number" type="factory">
 				<BlockGenusMember>number</BlockGenusMember>
-				<BlockGenusMember>setter_variable_number</BlockGenusMember>
 				<BlockGenusMember>variable_number</BlockGenusMember>
-				<BlockGenusMember>setter_variable_digital</BlockGenusMember>
-				<BlockGenusMember>variable_digital</BlockGenusMember>
+				<BlockGenusMember>setter_variable_number</BlockGenusMember>
+				<BlockGenusMember>setter_variable_number_double</BlockGenusMember>
 				<BlockGenusMember>digital-low</BlockGenusMember>
 				<BlockGenusMember>digital-high</BlockGenusMember>
 				<BlockGenusMember>true</BlockGenusMember>
 				<BlockGenusMember>false</BlockGenusMember>
-				<BlockGenusMember>setter_variable_number_double</BlockGenusMember>
-				<BlockGenusMember>variable_number_double</BlockGenusMember>
-				<BlockGenusMember>number_double</BlockGenusMember>
+				<BlockGenusMember>variable_digital</BlockGenusMember>
+				<BlockGenusMember>setter_variable_digital</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="255 61 146" name="bd.utilities" type="factory">
 				<BlockGenusMember>servo_default</BlockGenusMember>
@@ -9218,6 +9216,7 @@
 				<BlockGenusMember>Tinker_LED_pwm</BlockGenusMember>
 				<BlockGenusMember>Tinker_Button</BlockGenusMember>
 				<BlockGenusMember>Tinker_LDR</BlockGenusMember>
+				<BlockGenusMember>Tinker_Tilt</BlockGenusMember>
 				<BlockGenusMember>df_temperature_sensor</BlockGenusMember>
 			</BlockDrawer>
             <BlockDrawer button-color="55 155 255" name="bd.Fairebot" type="factory">			
