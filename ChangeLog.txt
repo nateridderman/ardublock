@@ -1,5 +1,17 @@
 Changelog
 
+
+========== Version 2.0.0 ==========
+
+Major Changes:
+Alter loop counters to be more pythonic (starting at 0)
+
+Minor Changes:
+Defines loop counters in the loop
+
+Patches and Bug Fixes:
+Tinker blocks in loops no longer generate functions
+
 ========== Version 1.1.0 ==========
 
 Major Changes:
