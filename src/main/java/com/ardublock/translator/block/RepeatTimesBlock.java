@@ -16,7 +16,7 @@ public class RepeatTimesBlock extends TranslatorBlock
 	public String toCode() throws SocketNullException, SubroutineNotDeclaredException
 	{
 		String varName = translator.buildVariableName();
-		String ret = "for(int " + varName + "i=1; " + varName + "i <= ";
+		String ret = "for(int " + varName + "i=0; " + varName + "i < ";
 		TranslatorBlock translatorBlock = this.getRequiredTranslatorBlockAtSocket(0);
 		ret = ret + translatorBlock.toCode();
 		ret = ret + "; " + varName + "i++)\n{\n";

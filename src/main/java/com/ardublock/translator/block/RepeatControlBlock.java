@@ -40,12 +40,12 @@ public class RepeatControlBlock extends TranslatorBlock
 		String ret = "for(int " + varName + " = " + startVal + "; ";
 
 		if (Integer.parseInt(startVal) <= Integer.parseInt(stopVal)) {
-			ret = ret + varName + " <= " + stopVal+"; ";
-			ret = ret + varName + " + " + incVal+";)\n";
+			ret = ret + varName + " < " + stopVal+"; ";
+			ret = ret + varName + " = " + varName + " + " + incVal+")\n";
 		}
 		else {
 			ret = ret + varName + " > " + stopVal+"; ";
-			ret = ret + varName + " - " + incVal+";)\n";
+			ret = ret + varName + " = " + varName + " - " + incVal+")\n";
 		}
 
 		ret = ret +"{";

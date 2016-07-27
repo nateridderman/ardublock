@@ -25,7 +25,7 @@ public class RepeatBlock extends TranslatorBlock
 			throw new BlockException(blockId, uiMessageBundle.getString("ardublock.error_msg.number_var_slot"));
 		}
 		String varName=teste.toCode();
-		String ret = "for(int " + varName + "=1; " + varName + " <= ";
+		String ret = "for(int " + varName + "=0; " + varName + " < ";
 		TranslatorBlock translatorBlock = this.getRequiredTranslatorBlockAtSocket(1);
 		ret = ret + translatorBlock.toCode();
 		ret = ret + "; " + varName + "++)\n{\n";
