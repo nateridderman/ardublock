@@ -22,22 +22,16 @@ public abstract class AbstractTinkerWriteDigitalBlock extends TranslatorBlock
 		TranslatorBlock translatorBlock = this.getRequiredTranslatorBlockAtSocket(0);
 		String ret = "";
 		
-		if (translatorBlock instanceof NumberBlock || translatorBlock instanceof TinkerOutputPortBlock)
+		String number = translatorBlock.toCode();
+
+		if (translatorBlock instanceof NumberBlock)
 		{
-			String number = translatorBlock.toCode();
 			String setupCode = "pinMode( " + number + " , OUTPUT);";
 			translator.addSetupCommand(setupCode);
-			
-			ret = "digitalWrite( ";
-			ret = ret + number;
 		}
-		else
-		{
-			translator.addDefinitionCommand(DigitalOutputBlock.ARDUBLOCK_DIGITAL_WRITE_DEFINE);
-			ret = "__ardublockDigitalWrite(";
-			
-			ret = ret + translatorBlock.toCode();
-		}
+
+		ret = "digitalWrite( ";
+		ret = ret + number;
 		
 		ret = ret + " , ";
 		translatorBlock = this.getRequiredTranslatorBlockAtSocket(1);
