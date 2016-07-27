@@ -37,11 +37,18 @@ public class RepeatControlBlock extends TranslatorBlock
 		tb = this.getRequiredTranslatorBlockAtSocket(3);
 		String incVal = tb.toCode();
 
-		String ret = "";
+		String ret = "for(int " + varName + " = " + startVal + "; ";
 
-		ret = ret + "for(" + varName + " = " + startVal + "; \n" + 
-				    startVal + "<=" + stopVal + "?" + varName + " <= " + stopVal + ":" + varName + " >= " + stopVal + "; \n" + 
-				    startVal + "<=" + stopVal + "?" + varName + " = "  + varName + " + " + incVal + ":" +  varName + " = " + varName + " - " + incVal + ")\n{"; 
+		if (Integer.parseInt(startVal) <= Integer.parseInt(stopVal)) {
+			ret = ret + varName + " < " + stopVal+"; ";
+			ret = ret + varName + " = " + varName + " + " + incVal+")\n";
+		}
+		else {
+			ret = ret + varName + " > " + stopVal+"; ";
+			ret = ret + varName + " = " + varName + " - " + incVal+")\n";
+		}
+
+		ret = ret +"{";
 
 		TranslatorBlock translatorBlock = getTranslatorBlockAtSocket(4);
 		while (translatorBlock != null)
