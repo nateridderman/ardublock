@@ -1,6 +1,9 @@
 Changelog
 
 
+Patches and Bug Fixes:
+- Remove servo block family
+
 ========== Version 2.0.0 ==========
 
 Major Changes:
