@@ -9125,6 +9125,10 @@
 			<FamilyMember>Midi_AS</FamilyMember>
 			<FamilyMember>Midi_B</FamilyMember>
 		</BlockFamily>
+		<BlockFamily>
+			<FamilyMember>tone</FamilyMember>
+			<FamilyMember>tone_time</FamilyMember>
+		</BlockFamily>
 		
 	</BlockFamilies>
 
