@@ -3,6 +3,7 @@ Changelog
 
 Patches and Bug Fixes:
 - Remove servo block family
+- Fix taweili#159 and arduino/Arduino#5454
 
 ========== Version 2.0.0 ==========
 
