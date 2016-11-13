@@ -8847,11 +8847,6 @@
 			<FamilyMember>LCD_command_blinkOff</FamilyMember>
 		</BlockFamily>
 		<BlockFamily>
-			<FamilyMember>servo_default</FamilyMember>
-			<FamilyMember>servo_sg90</FamilyMember>
-			<FamilyMember>servo_mg996r</FamilyMember>
-		</BlockFamily>
-		<BlockFamily>
 			<FamilyMember>df_joystick_module_x</FamilyMember>
 			<FamilyMember>df_joystick_module_y</FamilyMember>
 		</BlockFamily>
