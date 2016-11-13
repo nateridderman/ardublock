@@ -3,6 +3,8 @@ Changelog
 
 Patches and Bug Fixes:
 - Remove servo block family
+- Remove unneeded tinker.h import
+- Change TinkerButtonBlock to be an AbstractTinkerReadDigitalBlock
 
 ========== Version 2.0.0 ==========
 
