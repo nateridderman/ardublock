@@ -10,4 +10,4 @@ echo $M2_HOME && \
 echo $PATH && \
 mvn -version && \
 # Get the working copy of the jar file from github
-wget -P ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/ https://github.com/gregcorbett/openblocks/releases/download/v1.0/openblocks-1.0.2-SNAPSHOT.jar
+wget -P ~/.m2/repository/edu/mit/openblocks/1.0-SNAPSHOT/ https://github.com/gregcorbett/openblocks/releases/download/v1.0/openblocks-1.0-SNAPSHOT.jar
