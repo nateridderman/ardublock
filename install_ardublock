@@ -1,8 +1,7 @@
 #! /bin/sh
 
 mvn validate
-export CLASSPATH=/home/travis/build/*/ardublock/src/main/java:/home/travis/build/*/ardublock/target/classes:${CLASSPATH}
-mvn install
+mvn install -DCLASSPATH=./src/main/java:./target/classes
 mv ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar.lastUpdated ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar
 mv ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.pom.lastUpdated ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.pom
 #rm openblocks-1.0.2-SNAPSHOT.jar
