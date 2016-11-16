@@ -2,7 +2,7 @@
 
 mvn validate
 export M2_HOME=/usr/local/maven && export PATH=${M2_HOME}/bin:${PATH}
-export CLASSPATH=~/ardublock/src/main/java:/~/ardublock/target/classes
+export CLASSPATH=./ardublock/src/main/java:./ardublock/target/classes
 mvn install
 mv ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar.lastUpdated ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar
 mv ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.pom.lastUpdated ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.pom
