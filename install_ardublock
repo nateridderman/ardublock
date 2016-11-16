@@ -2,8 +2,8 @@
 
 mvn validate
 mvn install -DCLASSPATH=./src/main/java:./target/classes
-mv ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar.lastUpdated ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar
-mv ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.pom.lastUpdated ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.pom
+#mv ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar.lastUpdated ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar
+#mv ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.pom.lastUpdated ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.pom
 #rm openblocks-1.0.2-SNAPSHOT.jar
 #wget https://github.com/gregcorbett/openblocks/releases/download/v1.0/openblocks-1.0.2-SNAPSHOT.jar
-mvn install
+#mvn install
