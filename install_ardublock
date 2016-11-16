@@ -1,5 +1,7 @@
 #! /bin/sh
 
+pwd
+ls -a .
 mvn validate
 mvn install -DCLASSPATH=./src/main/java:./target/classes
 #mv ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar.lastUpdated ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar
