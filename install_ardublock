@@ -3,7 +3,7 @@
 pwd
 ls -a .
 ls -a ~/.m2/repository/edu/mit/openblocks
-ls -a ~/.m2/repository/edu/mit/openblocks1.0*
+ls -a ~/.m2/repository/edu/mit/openblocks/1.0*
 mvn validate
 mvn install -DCLASSPATH=./src/main/java:./target/classes
 #mv ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar.lastUpdated ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar
