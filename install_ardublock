@@ -2,7 +2,7 @@
 
 mvn validate
 export M2_HOME=/usr/local/maven && export PATH=${M2_HOME}/bin:${PATH}
-ls .
+pwd .
 ls ./src/main/java
 export CLASSPATH=./src/main/java:./target/classes
 mvn install
