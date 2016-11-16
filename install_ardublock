@@ -1,12 +1,11 @@
 #! /bin/sh
 
 mvn validate
+export M2_HOME=/usr/local/maven && export PATH=${M2_HOME}/bin:${PATH}
 mvn install
-cd ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT
-mv openblocks-1.0.2-SNAPSHOT.jar.lastUpdated openblocks-1.0.2-SNAPSHOT.jar
-mv openblocks-1.0.2-SNAPSHOT.pom.lastUpdated openblocks-1.0.2-SNAPSHOT.pom
+mv ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar.lastUpdated ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.jar
+mv ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.pom.lastUpdated ~/.m2/repository/edu/mit/openblocks/1.0.2-SNAPSHOT/openblocks-1.0.2-SNAPSHOT.pom
 rm openblocks-1.0.2-SNAPSHOT.jar
 wget https://github.com/gregcorbett/openblocks/releases/download/v1.0/openblocks-1.0.2-SNAPSHOT.jar
-cd ~/ardublock
 mvn install
-cd ..
+ls target/ardublock-all.jar
